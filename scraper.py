@@ -31,8 +31,8 @@ for td in tds:
 # Check the 'Data' tab - here you'll see the data saved in the ScraperWiki store. 
 # -----------------------------------------------------------------------------
 
-#for td in tds:
- #    record = { "td" : td.text } # column name and value
+for td in tds:
+     record = { "td" : td.text } # column name and value
   #   scraperwiki.sqlite.save(["td"], record) # save the records one by one
     
 # -----------------------------------------------------------------------------
